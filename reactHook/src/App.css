@@ -1,0 +1,91 @@
+/* for general */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/* for navbar */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+justify-content: center;
+align-items: center;
+display: flex;
+flex-wrap: wrap;
+gap: 10% ;
+  margin: 16px 0px;
+}
+
+.logo{
+  animation: rotation 1s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.cardBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 200px;
+  width: 250px;
+  background: rgb(139,81,160);
+  background: linear-gradient(123deg, rgba(139,81,160,1) 52%, rgba(183,115,176,1) 87%);
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px;
+}
+
+.navbar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: rgb(139,81,160);
+  background: linear-gradient(123deg, rgba(139,81,160,1) 72%, rgba(183,115,176,1) 87%);
+}
+
+.group{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5%;
+  padding: 4px ;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.avatar{
+  border-radius: 12px;
+  width: 100px;
+  height: 100px;
+}
+
+.details{
+  padding: 4px 0px;
+  color: #fff;
+  line-height: 0rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.searchText{
+  width: 90%;
+  height: 40px;
+  border-radius: 12px;
+}
+
+#mainBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0px;
+}
