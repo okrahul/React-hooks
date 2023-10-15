@@ -18,7 +18,7 @@ gap: 10% ;
 }
 
 .logo{
-  animation: rotation 1s infinite linear;
+  animation: rotation 3s infinite linear;
 }
 
 @keyframes rotation {

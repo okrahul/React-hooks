@@ -7,7 +7,7 @@ interface RouteType {
 
 export const routeConfig: RouteType[] = [
   {
-    path: "/file",
+    path: "/",
     element: <UseTransition />,
   },
   {
